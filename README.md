@@ -21,6 +21,8 @@ Change train_inception_resnet_v2.sh's DATASET_DIR, TRAIN_DIR, CHECKPOINT_PATH an
 <br><br>
 Change models/slim/datasets/flowers.py's SPLITS_TO_SIZES and _NUM_CLASSES, or copy and create a new .py for your own dataset and change dataset_name in train_inception_resnet_v2.sh to the name of your dataset .py inside models/slim/datasets/. 
 <br><br>
+This change might be necessary before you can fine-tune the model: https://github.com/tensorflow/models/pull/431/commits/edf0b5cd5c413ea299fdfba578dba3c7faa6040c
+<br><br>
 run train_inception_resnet_v2.sh
 <br>
 Checkpoints will be created in TRAIN_DIR. 
