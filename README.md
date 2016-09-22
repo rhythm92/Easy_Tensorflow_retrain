@@ -9,7 +9,7 @@ Download the models repository from: https://github.com/tensorflow/models
 <br><br>
 Place all files inside the models/slim folder. 
 <br><br>
-Change convert_dataset.sh to the number of validation images and directory where each class is a directory (ie. daisy, dandelion, roses, sunflowers, tulips)
+Change convert_dataset.sh to the number of validation images and directory where each class is a folder (ie. daisy, dandelion, roses, sunflowers, tulips)
 <br><br>
 convert_dataset.sh will create a folder tensorflow_data with the training data. 
 <br><br>
