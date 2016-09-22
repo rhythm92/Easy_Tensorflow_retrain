@@ -7,7 +7,7 @@ Install nightly with: sudo -H pip2 install tensorflow-0.10.0-cp27-none-linux_x86
 <br><br>
 Download the models repository from: https://github.com/tensorflow/models
 <br><br>
-Place all files inside the models/slim folder. 
+Place all files (convert_dataset.py, convert_dataset.sh and train_inception_resnet_v2.sh) inside the models/slim folder. 
 <br><br>
 Change convert_dataset.sh to the number of validation images and directory where each class is a folder (ie. daisy, dandelion, roses, sunflowers, tulips)
 <br><br>
