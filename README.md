@@ -19,6 +19,8 @@ Download the Inception-ResNet-v2 pre-trained model from: http://download.tensorf
 <br><br>
 Change train_inception_resnet_v2.sh's DATASET_DIR, TRAIN_DIR, CHECKPOINT_PATH and batch_size. 
 <br><br>
+Change models/slim/datasets/flowers.py's SPLITS_TO_SIZES and _NUM_CLASSES, or copy and create a new .py for your own dataset. 
+<br><br>
 run train_inception_resnet_v2.sh
 <br>
 Checkpoints will be created in TRAIN_DIR. 
