@@ -11,7 +11,9 @@ Place all files inside the models/slim folder.
 <br><br>
 Change convert_dataset.sh to the number of validation images and directory where each class is a folder (ie. daisy, dandelion, roses, sunflowers, tulips)
 <br><br>
-convert_dataset.sh will create a folder tensorflow_data with the training data. 
+Run convert_dataset.sh
+<br>
+It will create a folder, tensorflow_data, with the training data. 
 <br><br>
 Download the Inception-ResNet-v2 pre-trained model from: http://download.tensorflow.org/models/inception_resnet_v2_2016_08_30.tar.gz
 <br><br>
